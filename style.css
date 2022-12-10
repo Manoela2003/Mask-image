@@ -1,0 +1,30 @@
+body {
+    background-color: black;
+    font-family: 'Roboto Slab', serif;
+}
+
+.hero {
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 70%;
+    margin: 3rem auto;
+}
+
+.hero-image img {
+    height: 50vh;
+    width: 50vh;
+    -webkit-mask-image:url(decorative-2031285.svg);
+    -webkit-mask-size: cover;
+}
+
+.hero-title {
+    text-transform: uppercase;
+    color: #01a1bb;
+    font-size: 5rem;
+    width: 30%;
+    word-spacing: 4rem;
+    line-height: 1.2;
+    text-align: center;
+}
